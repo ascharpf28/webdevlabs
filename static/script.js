@@ -101,6 +101,6 @@ function greetingFunc(){
     element.innerHTML=element.innerHTML+", "+nameText;
 }
 
-if (window.location.href=="https://ascharpf28.github.io/webdevlabs/index.html" | window.location.href=="https://ascharpf28.github.io/webdevlabs/"){
+if (window.location.href=="https://ascharpf28.github.io/webdevlabs/index.html" || window.location.href=="https://ascharpf28.github.io/webdevlabs/"){
     greetingFunc();
 }
