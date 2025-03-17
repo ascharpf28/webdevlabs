@@ -108,6 +108,6 @@ if (window.location.href=="https://ascharpf28.github.io/webdevlabs/index.html" |
 function addYear(){
     var date=new Date();
     var year=date.getFullYear();
-    var element = document.getElementById("copyYear");
-    element.innerHTML=year;
+    var elem = document.getElementById("copyYear");
+    elem.innerHTML=year;
 }
