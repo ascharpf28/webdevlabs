@@ -81,8 +81,7 @@ L2.forEach(findTheBanana);
 
 function greetingFunc(){
     var d=new Date();
-    var h;
-    h=d.getHours();
+    var h=d.getHours();
     var element = document.getElementById("greeting");
     var nameText = "I am Alexandra Scharpf";
     if (h>=5 && h<12){
