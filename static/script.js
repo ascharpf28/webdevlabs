@@ -104,3 +104,6 @@ function greetingFunc(){
 if (window.location.href.includes("index.html")){
     greetingFunc();
 }
+if (window.location.href.includes("")){
+    greetingFunc();
+}
