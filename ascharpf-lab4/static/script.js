@@ -104,3 +104,10 @@ function greetingFunc(){
 if (window.location.href=="https://ascharpf28.github.io/webdevlabs/index.html" || window.location.href=="https://ascharpf28.github.io/webdevlabs/"){
     greetingFunc();
 }
+
+function addYear(){
+    var date=new Date();
+    var year=date.getFullYear();
+    var element = document.getElementById("copyYear");
+    element.innerHTML=year;
+}
