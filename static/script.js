@@ -57,7 +57,7 @@ function findTheBanana(item, list){
     }
 }
 
-L1.forEach(element => {
+/*L1.forEach(element => {
     if (element == "Banana"){
         alert("We found banana in first array")
 
@@ -70,10 +70,7 @@ L2.forEach(element =>{
 
     }
 });
-
-
-/*L1.forEach(findTheBanana);
-L2.forEach(findTheBanana); */
+*/
 
 function greetingFunc(){
     var d=new Date();

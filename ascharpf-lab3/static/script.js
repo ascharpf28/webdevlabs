@@ -72,13 +72,6 @@ L2.forEach(element =>{
 });
 
 
-
-
-
-
-L1.forEach(findTheBanana);
-L2.forEach(findTheBanana); 
-
 function greetingFunc(){
     var d=new Date();
     var h;
