@@ -111,10 +111,9 @@ function showList(){
     var elem=document.getElementById("list");
     var btn=document.getElementById("btn");
     var listDisplay=window.getComputedStyle(elem).display;
-    var btnDisplay=document.getElementById(btn).display;
     if (listDisplay=="none"){
         elem.style.display="block";
-        btnDisplay.style.display="none"; 
+        btn.style.display="none"; 
     }
 }
 
