@@ -113,11 +113,11 @@ function showList(){
     var display=window.getComputedStyle(elem).display;
     if (display=="block"){
         elem.style.display="none";
-        btn.innerHTML="Hide List";
+        btn.innerHTML="Show List";
     }
     else{
         elem.style.display="block";
-        btn.innerHTML="Show List";
+        btn.innerHTML="Hide List";
     }
 }
 
