@@ -111,7 +111,7 @@ function showList(){
     var elem=document.getElementById("list");
     var btn=document.getElementById("btn");
     var listDisplay=window.getComputedStyle(elem).display;
-    var btnDisplay=document.getElementById("btn");
+    var btnDisplay=document.getElementById(btn).display;
     if (listDisplay=="block"){
         elem.style.display="none";
         btnDisplay.style.display="none"
