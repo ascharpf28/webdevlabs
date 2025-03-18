@@ -110,7 +110,8 @@ function addYear(){
 function showList(){
     var elem=document.getElementById("list");
     var btn=document.getElementById("btn");
-    if (elem.style.display=="block"){
+    var display=window.getComputedStyle(elem).display;
+    if (display=="block"){
         elem.style.display="none";
         btn.innerHTML="Hide List";
     }
