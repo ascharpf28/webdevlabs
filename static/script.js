@@ -110,14 +110,11 @@ function addYear(){
 function showList(){
     var elem=document.getElementById("list");
     var btn=document.getElementById("btn");
-    var display=window.getComputedStyle(elem).display;
-    if (display=="block"){
+    var listDisplay=window.getComputedStyle(elem).display;
+    var btnDisplay=document.getElementById("btn");
+    if (listDisplay=="block"){
         elem.style.display="none";
-        btn.innerHTML="Show List";
-    }
-    else{
-        elem.style.display="block";
-        btn.innerHTML="Hide List";
+        btnDisplay.style.display="none"
     }
 }
 

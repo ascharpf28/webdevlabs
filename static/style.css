@@ -13,6 +13,10 @@ ul {
     display: none;
 }
 
+button{
+    display: none;
+}
+
 #webname {
     background-color: #DE6FB9;
   }
