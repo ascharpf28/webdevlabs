@@ -53,7 +53,7 @@ function findTheBanana(item, list){
         loc="second array";
     }
     if (item=="banana"){
-        return alert("found the Banana in" + loc); 
+         return alert("found the Banana in" + loc); 
     }
 }
 
@@ -106,4 +106,18 @@ function addYear(){
     var elem = document.getElementById("copyYear");
     elem.innerHTML=year;
 }
+
+function showList(){
+    var elem=document.getElementById("list");
+    var btn=document.getElementById("btn");
+    if (elem.style.display=="block"){
+        elem.style.display="none";
+        btn.innerHTML="Hide List";
+    }
+    else{
+        elem.style.display="block";
+        btn.innerHTML="Show List";
+    }
+}
+
 

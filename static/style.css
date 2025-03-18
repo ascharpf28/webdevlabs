@@ -9,6 +9,10 @@
     margin: 5px;
 }
 
+ul {
+    display: block;
+}
+
 #webname {
     background-color: #DE6FB9;
   }
