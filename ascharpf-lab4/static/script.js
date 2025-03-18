@@ -72,10 +72,6 @@ L2.forEach(element =>{
 });
 
 
-
-
-
-
 L1.forEach(findTheBanana);
 L2.forEach(findTheBanana); 
 
@@ -110,3 +106,4 @@ function addYear(){
     var elem = document.getElementById("copyYear");
     elem.innerHTML=year;
 }
+
