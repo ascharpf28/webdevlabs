@@ -44,18 +44,6 @@ var L2=["Apple", "Banana", "Kiwi", "Orange"];
 findTheBanana(L2)
 */
 
-function findTheBanana(item, list){
-    var loc;
-    if (list==L1){
-        loc="first array";
-    }
-    else{
-        loc="second array";
-    }
-    if (item=="banana"){
-         return alert("found the Banana in" + loc); 
-    }
-}
 
 /*L1.forEach(element => {
     if (element == "Banana"){
