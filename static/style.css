@@ -14,7 +14,7 @@ ul {
 }
 
 button{
-    display: none;
+    display: block;
 }
 
 #webname {
