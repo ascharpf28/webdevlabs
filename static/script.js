@@ -124,15 +124,15 @@ function checkingFunction(){
         document.getElementById("response").innerHTML = name.validationMessage;
         document.getElementById("response").innerHTML = "Please fill out the form correctly so I can get back to you :)";
     } 
-    if (!email.checkValidity()) {
+    else if (!email.checkValidity()) {
         document.getElementById("response").innerHTML = email.validationMessage;
         document.getElementById("response").innerHTML = "Please fill out the form correctly so I can get back to you :)";
     } 
-    if (!comment.checkValidity()) {
+    else if (!comment.checkValidity()) {
         document.getElementById("response").innerHTML = comment.validationMessage;
         document.getElementById("response").innerHTML = "Please fill out the form correctly so I can get back to you :)";
     } 
-    if (comment.checkValidity() && email.checkValidity() && comment.checkValidity()){
+    else{
         document.getElementById("response").innerHTML = "Thanks for reaching out! I'll respond shortly.";
     } 
 }
