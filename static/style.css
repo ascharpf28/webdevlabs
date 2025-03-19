@@ -21,6 +21,10 @@ button {
     background-color: #DE6FB9;
   }
 
+#footNote, #copyYear {
+    display: inline-block; 
+  }
+
 nav a {
     text-decoration: None;
     color: #DE6FB9;
