@@ -25,6 +25,10 @@ button {
     display: inline-block; 
   }
 
+#longBio{
+    display: none;
+}
+
 nav a {
     text-decoration: None;
     color: #DE6FB9;

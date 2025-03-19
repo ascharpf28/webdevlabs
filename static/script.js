@@ -104,15 +104,15 @@ function showList(){
 
 $(document).ready(function(){
     $("#readMore").click(function(){
-        $("longBio").show();
-        $("readMore").hide();
-        $("readLess").show();
+        $("#longBio").show();
+        $("#readMore").hide();
+        $("#readLess").show();
     });
 
     $("#readLess").click(function(){
-        $("longBio").hide();
-        $("readLess").hide();
-        $("readMore").show();
+        $("#longBio").hide();
+        $("#readLess").hide();
+        $("#readMore").show();
     });
 });
 
