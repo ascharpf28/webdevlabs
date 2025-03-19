@@ -116,6 +116,23 @@ $(document).ready(function(){
     });
 });
 
+function checkingFunction(){
+    var name=document.getElementById("name");
+    var email=document.getElementById("email");
+    var comment=document.getElementById("comment");
+    if (!name.checkValidity()) {
+        document.getElementById("response").innerHTML = name.validationMessage;
+    } 
+    if (!email.checkValidity()) {
+        document.getElementById("response").innerHTML = email.validationMessage;
+    } 
+    if (!comment.checkValidity()) {
+        document.getElementById("response").innerHTML = comment.validationMessage;
+    } 
+    else{
+        document.getElementById("response").innerHTML = "Thanks for reaching out! I'll respond shortly.";
+    } 
+}
 
 
 
