@@ -13,8 +13,16 @@ ul {
     display: none;
 }
 
-button {
+#btn {
     display: block;
+}
+
+#readMore{
+    display: block;
+}
+
+#readLess{
+    display: none; 
 }
 
 #webname {
