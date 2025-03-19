@@ -13,7 +13,7 @@ ul {
     display: none;
 }
 
-#btn {
+/*#btn {
     display: block;
 }
 
@@ -23,7 +23,7 @@ ul {
 
 #readLess{
     display: none; 
-}
+} */
 
 #webname {
     background-color: #DE6FB9;
@@ -31,6 +31,8 @@ ul {
 
 #footNote, #copyYear {
     display: inline-block; 
+    margin: 0;
+    padding: 0;
   }
 
 #longBio{
