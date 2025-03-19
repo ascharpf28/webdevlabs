@@ -122,12 +122,15 @@ function checkingFunction(){
     var comment=document.getElementById("comment");
     if (!name.checkValidity()) {
         document.getElementById("response").innerHTML = name.validationMessage;
+        document.getElementById("response").innerHTML = "Please fill out the form correctly so I can get back to you :)";
     } 
     if (!email.checkValidity()) {
         document.getElementById("response").innerHTML = email.validationMessage;
+        document.getElementById("response").innerHTML = "Please fill out the form correctly so I can get back to you :)";
     } 
     if (!comment.checkValidity()) {
         document.getElementById("response").innerHTML = comment.validationMessage;
+        document.getElementById("response").innerHTML = "Please fill out the form correctly so I can get back to you :)";
     } 
     else{
         document.getElementById("response").innerHTML = "Thanks for reaching out! I'll respond shortly.";
