@@ -111,26 +111,8 @@ input[type=submit]{
     gap: 30px; 
 }
 
-.mainLayout2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh;
-    gap: 50px; 
-}
-
 .item1, .item2, .item3, .item4 {
     padding: 20px;
-    text-align: center;
-    font-size: 16px;
-    flex: 1 1 45%;
-    max-width: 45%; 
-    height: 50%; 
-}
-
-.item11, .item22{
-    padding: 40px;
     text-align: center;
     font-size: 16px;
     flex: 1 1 45%;
