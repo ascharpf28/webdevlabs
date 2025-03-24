@@ -137,5 +137,16 @@ function checkingFunction(){
     } 
 }
 
+function getAdvice(){
+    fetch("https://api.adviceslip.com/advice");
+    .then(response =>{
+        return response.json();
+    })
+    .then(data=> {
+        var advice=data.slip.advice;
+        document.getElementById("adviceText").innerText=advice;
+    })
+}
+
 
 
