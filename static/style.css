@@ -110,6 +110,14 @@ input[type=submit]{
     gap: 30px; 
 }
 
+.mainLayout2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    gap: 50px; 
+}
 
 .item1, .item2, .item3, .item4 {
     padding: 20px;
