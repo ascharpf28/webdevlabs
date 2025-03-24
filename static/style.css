@@ -77,3 +77,9 @@ input[type=submit]{
     text-decoration: none;
     text-align: center;
 }
+
+.funIMG{
+    border-radius: 100%;
+    width: 200px;
+    height: 300px;
+}

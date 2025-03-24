@@ -92,7 +92,7 @@ function addYear(){
     elem.innerHTML=year;
 }
 
-function showList(){
+/*function showList(){
     var elem=document.getElementById("list");
     var btn=document.getElementById("btn");
     var listDisplay=window.getComputedStyle(elem).display;
@@ -100,7 +100,7 @@ function showList(){
         elem.style.display="block";
         btn.style.display="none"; 
     }
-}
+}*/
 
 $(document).ready(function(){
     $("#readMore").click(function(){
