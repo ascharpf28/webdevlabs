@@ -100,38 +100,15 @@ input[type=submit]{
 
 }
 
-.item1{
-    background-color: #4CAF50;
-    color: white;
-    margin: 10px;
+.item1, .item2, .item3, .item4 {
     padding: 20px;
     text-align: center;
     display: flex;
+    justify-content: center; 
+    align-items: center;     
+    border-radius: 5px;
+    font-size: 24px;
+    width: 50%; 
+    height: 50%; 
 }
 
-.item2{
-    background-color: #4CAF50;
-    color: white;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-}
-
-.item3{
-    background-color: #4CAF50;
-    color: white;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-}
-
-.item4{
-    background-color: #4CAF50;
-    color: white;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-}
