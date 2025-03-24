@@ -120,3 +120,12 @@ input[type=submit]{
     height: 50%; 
 }
 
+.item11, .item22{
+    padding: 40px;
+    text-align: center;
+    font-size: 16px;
+    flex: 1 1 45%;
+    max-width: 45%; 
+    height: 50%; 
+}
+
