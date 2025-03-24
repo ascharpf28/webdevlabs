@@ -87,3 +87,15 @@ input[type=submit]{
     border-radius: 8px;  
     display: block;      
 }
+
+.container{
+    border-radius: 10%;
+    display: inline-block;
+    box-shadow: 10px 10px;
+}
+
+#adviceBtn {
+    border-radius: 50%;
+    display: block;
+
+}
