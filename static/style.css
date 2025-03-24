@@ -81,3 +81,8 @@ input[type=submit]{
 .funIMG {
     border-radius: 100%;
 }
+
+.video {
+    border-radius: 8px;  
+    display: block;      
+}
