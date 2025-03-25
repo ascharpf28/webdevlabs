@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alexandra Scharpf">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Alexandra Scharpf's professional website">
+    <title>Alexandra Scharpf</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/script.js"></script>
+</head>
+<body style="font-family: Arial" onload="addYear()">
+    <header> 
+        <h1 id="webname">Alexandra Scharpf</h1>
+        <nav> 
+            <a href="../index.html" >about</a> 
+            <a href="cvcopy.html" >resume</a> 
+            <a href="funcopy.html">play</a>     
+            <a href="contactcopy.html">contact</a> 
+        </nav>
+    </header>
+    <div class="mainLayout">
+        <div id="item 1">
+            <h2>Things I love to do for Fun</h2>
+            <ul id="list">
+                <li>Swimming</li>
+                <li>Traveling</li>
+                <li>Hiking</li>
+                <li>Baking/Cooking</li>
+                <li>Jigsaw Puzzles</li>
+                <li>Piano</li>
+            </ul>
+        </div>
+        <div id="item 2">
+            <img class="funIMG" src="../static/Amalfi.jpg" alt="Amalfi-Traveling Photo"  width="400" height="500">
+        </div>
+        <div id="item 3">
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/ZbZSe6N_BXs?si=tyTb1aee3t6tDy-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="item 4">
+            <div class="container">
+                <h2>Need Some Advice?</h2>
+                <p id="adviceText">Click on the button to get a random piece of advice!</p>
+                <button id="adviceBtn" type="button" onclick="getAdvice()">Advice</button> 
+
+            </div>
+        </div>
+ <!--       <button id="btn" type="button" onclick="showList()">Click to see...</button> -->
+    </div>
+    <footer>
+        <p id="footNote">designed &#127912; and coded &#x1F469;&#x1F3FB;&#x200D;&#x1F4BB; by Alexandra Scharpf &copy;</p>
+        <p id="copyYear"></p>
+    </footer>
+</body>
+</html>
