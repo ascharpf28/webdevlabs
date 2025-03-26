@@ -152,5 +152,35 @@ function getAdvice(){
         });
 }
 
+function toggle(){
+    var link=document.querySelector(".sections");
+    if (link.style.display == "block") {
+        link.style.display = "none";
+      } else {
+        link.style.display = "block";
+      }
+}
+
+
+function highlight(){
+    var currPath= window.location.pathname;
+    if (!currPath.startsWith('/')) {
+        currPath = '/' + currPath;
+    }
+    var links=document.querySelectorAll('.sections a');
+    links.forEach(link => {
+        var linkPath = link.getAttribute('href');
+        if (linkPath == currPath) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active'); 
+        }
+    });
+}
+
+window.addEventListener('load', highlight);
+
+
+
 
 

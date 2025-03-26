@@ -7,28 +7,45 @@
     <meta name="description" content="Alexandra Scharpf's professional website">
     <title>Alexandra Scharpf</title>
     <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="/static/templates.css">
     <script defer src="static/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="font-family: Arial" onload="addYear()">
     <header> 
         <h1 id="webname">Alexandra Scharpf</h1>
-        <nav>  
-            <a href="index.html" >about</a> 
-            <a href="views/cvcopy.html" >resume</a> 
-            <a href="views/funcopy.html">play</a>     
-            <a href="views/contactcopy.html">contact</a> 
+        <nav class="nav">  
+            <a href="javascript:void(0);" class="icon" onclick="toggle()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+                <div class="sections">
+                    <a href="index.html" class="active">about</a> 
+                    <a href="views/cvcopy.html" >resume</a> 
+                    <a href="views/funcopy.html">play</a>     
+                    <a href="views/contactcopy.html">contact</a> 
+                </div>
+            </ul>
         </nav>
     </header>
+    <h2 id="greeting">Hi, my name is Alexandra Scharpf</h2>
     <div class="main">
-        <h2 id="greeting">Hi, my name is Alexandra Scharpf</h2>
-        <img src="static/Headshotcopy.jpeg" alt="Alexandra's headshot" width="300" height="300">
-        <p id="intro">  Hi, I am Alexandra Scharpf and appreciate you visting my website. I grew up in Chagrin Falls, Ohio and graduated from Chagrin Falls High School. Currently, I am attending Carnegie Mellon Univeristy and pursuing a degree in Information Systems. At CMU, I am involved in the Varisty Swim Team, Women in IS, and the Emerging Leaders Program.</p>
-        <button id="readMore" type="button">Read More</button>
-        <p id="longBio"> My academic interests lie at the intersection of technology, management, and problem-solving, and I’m eager to learn how technology can enhance business operations and improve lives. Looking ahead, I’m excited about the opportunities to further explore my passion for both tech and leadership through internships, projects, and professional development.</p>
-        <button id="readLess" type="button" style="display: none;">Read Less</button>
+        <div class="mainimg">
+            <div class="w3-container w3-center w3-animate-opacity">
+                <img src="static/Headshotcopy.jpeg" alt="Alexandra's headshot" class="mainimg" width="300" height="300">
+            </div>
+        </div>
+        <div class="maincontent">
+            <p id="intro">  Hi, I am Alexandra Scharpf and appreciate you visting my website. I grew up in Chagrin Falls, Ohio and graduated from Chagrin Falls High School. Currently, I am attending Carnegie Mellon Univeristy and pursuing a degree in Information Systems. At CMU, I am involved in the Varisty Swim Team, Women in IS, and the Emerging Leaders Program.</p>
+            <button id="readMore" type="button">Read More</button>
+            <p id="longBio"> My academic interests lie at the intersection of technology, management, and problem-solving, and I’m eager to learn how technology can enhance business operations and improve lives. Looking ahead, I’m excited about the opportunities to further explore my passion for both tech and leadership through internships, projects, and professional development.</p>
+            <button id="readLess" type="button" style="display: none;">Read Less</button>
+        </div>
     </div>
-    <footer>
+    <footer class="footer">
         <p id="footNote">designed &#127912; and coded &#x1F469;&#x1F3FB;&#x200D;&#x1F4BB; by Alexandra Scharpf &copy;</p> 
         <p id="copyYear"></p>
     </footer>

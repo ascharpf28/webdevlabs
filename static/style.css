@@ -49,6 +49,11 @@ nav a {
     margin-right:15px;
 }
 
+nav a.active {
+    font-weight: bold;
+    color: #ff6600;
+}
+
 table{
     table-layout: auto;
     width: fit-content;
