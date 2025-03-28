@@ -178,7 +178,7 @@ function highlight(){
     });
 }
 
-window.addEventListener('load', highlight);
+window.addEventListener('load', highlight());
 
 
 
