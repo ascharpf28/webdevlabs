@@ -42,6 +42,11 @@
     background-color:  #efdecde9;
 }
 
+.nav a.icon {
+    
+    display:none;
+}
+
 @media (max-width: 768px) {
     .containers {
         grid-template-areas:
@@ -58,6 +63,14 @@
     .sections {
         display: none;
         width: 100%;
+    }
+
+    .nav a.icon {
+        background: black;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display:block;
     }
 
     .fa fa-bars {
@@ -85,13 +98,7 @@
     display: block;
 }
   
-.nav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
+
   
 .nav a:hover {
     background-color: #ddd;

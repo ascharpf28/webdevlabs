@@ -163,14 +163,19 @@ function toggle(){
 
 
 function highlight(){
+    console.log("hit")
     var currPath= window.location.pathname;
+    console.log(currPath)
     if (!currPath.startsWith('/')) {
         currPath = '/' + currPath;
     }
     var links=document.querySelectorAll('.sections a');
+    console.log(links)
     links.forEach(link => {
         var linkPath = link.getAttribute('href');
-        if (linkPath == currPath) {
+        console.log(linkPath)
+        if ('/' +linkPath == currPath) {
+            console.log("Hit2")
             link.classList.add('active');
         } else {
             link.classList.remove('active'); 
